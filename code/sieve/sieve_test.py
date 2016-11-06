@@ -2,13 +2,10 @@
 
 
 import unittest
-import sieve as s
+import sieve
 
 
-class UtilTest(unittest.TestCase):
-    """
-    Class for the test function
-    """
+class SieveTest(unittest.TestCase):
 
     def test_sieve_of_eratosthenes(self):
         """
@@ -16,7 +13,7 @@ class UtilTest(unittest.TestCase):
         """
 
         expected_return_value = [2, 3, 5, 7, 11]
-        actual_return_value = list(s.sieve_of_eratosthenes(12))
+        actual_return_value = list(sieve.sieve_of_eratosthenes(12))
 
         self.assertEqual(expected_return_value, actual_return_value)
 
