@@ -32,3 +32,13 @@ $ # py.test
 $ py.test tests/pytest_nlp.py
 $ py.test tests/unittest_nlp.py
 ```
+
+## Battleship
+
+```bash
+$ cd code/exercise
+
+$ # Unit Tests
+$ python3 -m unittest discover
+```
+
