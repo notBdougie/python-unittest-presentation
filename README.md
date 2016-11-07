@@ -9,7 +9,6 @@ Presentation and examples of Unit Testing in Python.
 
 ```bash
 $ git clone https://github.com/martialblog/python-unittest-presentation.git
-
 ```
 
 ## Sieve of Eratosthenes
