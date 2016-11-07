@@ -1,9 +1,18 @@
 # python-unittest-presentation
-Presentation and examples of Unit Testing in Python
+Presentation and examples of Unit Testing in Python.
 
 # Usage
 
+## Git
+
+```bash
+$ git clone https://github.com/martialblog/python-unittest-presentation.git
+
+```
+
 ## Sieve of Eratosthenes
+
+Simple mathematical function with various ways of testing.
 
 ```bash
 $ cd code/sieve
@@ -16,6 +25,8 @@ $ python3 -m unittest sieve_test.py
 ```
 
 ## Simple Tagger
+
+A simple POS-Tagger with tests in py.test and Unittest.
 
 ```bash
 $ cd code/nlp
@@ -33,12 +44,13 @@ $ py.test tests/pytest_nlp.py
 $ py.test tests/unittest_nlp.py
 ```
 
-## Battleship
+## Exercise
+
+You will find some classes and functions in *exercise.py* and some Unittest boilerplate.
 
 ```bash
 $ cd code/exercise
 
-$ # Unit Tests
+$ # Run Unit Tests
 $ python3 -m unittest discover
 ```
-
