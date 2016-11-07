@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/martialblog/python-unittest-presentation.svg?branch=master)](https://travis-ci.org/martialblog/python-unittest-presentation)
+
 # python-unittest-presentation
 Presentation and examples of Unit Testing in Python.
 
