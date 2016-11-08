@@ -28,9 +28,9 @@ def reverse_string(arg):
     return arg[::-1]
 
 
-def print_hello():
-    print("Hello World")
+def print_something(arg):
+    print(arg)
 
 
-def rand_int():
-    return randint(0, 10)
+def rand_int(max):
+    return randint(0, max)
