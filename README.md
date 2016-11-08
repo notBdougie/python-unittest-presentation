@@ -55,3 +55,30 @@ $ cd code/exercise
 $ # Run Unit Tests
 $ python3 -m unittest discover
 ```
+
+Possibile assert function:
+
+```python
+assertEqual(a, b)
+assertNotEqual(a, b)
+assertAlmostEqual(a, b)
+assertTrue(x)
+assertIs(a, b)
+assertIsNone(x)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+assertIn(a, b)
