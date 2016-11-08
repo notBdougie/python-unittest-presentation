@@ -56,7 +56,7 @@ $ # Run Unit Tests
 $ python3 -m unittest discover
 ```
 
-Possibile assert function:
+Some assert functions:
 
 ```python
 assertEqual(a, b)
@@ -66,19 +66,3 @@ assertTrue(x)
 assertIs(a, b)
 assertIsNone(x)
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-assertIn(a, b)
