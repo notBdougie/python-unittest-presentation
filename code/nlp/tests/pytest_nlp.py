@@ -88,7 +88,7 @@ def test_load(corpus):
     _ut_saver.save(testfile.name)
 
     expected_distribution = {
-        'VERB': 2/10,
+        'VERB': 2/3,
         'NOUN': 1/3
     }
 
